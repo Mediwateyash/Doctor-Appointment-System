@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "_id": "6959f764d542c3419cee8ab1",
+      "name": "anush gajbhiye",
+      "email": "anush@gmail.com",
+      "role": "patient"
+    },
+    {
+      "_id": "6959f781d542c3419cee8ab7",
+      "name": "Yash Narayan Diwate",
+      "email": "yash@gmail.com",
+      "role": "doctor"
+    },
+    {
+      "_id": "6959f7a0d542c3419cee8abd",
+      "name": "Yash Narayan Diwate",
+      "email": "yashd@gmail.com",
+      "role": "doctor"
+    },
+    {
+      "_id": "695a226efe93652c05baad5d",
+      "name": "Nikhil Warke",
+      "email": "Nikhil@gmail.com",
+      "role": "doctor"
+    },
+    {
+      "_id": "695a22b1fe93652c05baad7f",
+      "name": "vaibhav",
+      "email": "vaibhav@gmail.com",
+      "role": "patient"
+    },
+    {
+      "_id": "695ffcb7c759e523a9f12fd5",
+      "name": "Aryan",
+      "email": "aryan@gmail.com",
+      "role": "doctor"
+    },
+    {
+      "_id": "695ffd06c759e523a9f13008",
+      "name": "Jishnu nair",
+      "email": "jishnu@gmail.com",
+      "role": "patient"
+    }
+  ],
+  "doctors": [
+    {
+      "_id": "6959f781d542c3419cee8ab9",
+      "userId": "6959f781d542c3419cee8ab7",
+      "specialization": "cardiologist"
+    },
+    {
+      "_id": "6959f7a0d542c3419cee8abf",
+      "userId": "6959f7a0d542c3419cee8abd",
+      "specialization": "cardiologist"
+    },
+    {
+      "_id": "695a226efe93652c05baad5f",
+      "userId": "695a226efe93652c05baad5d",
+      "specialization": "General"
+    },
+    {
+      "_id": "695ffcb7c759e523a9f12fd7",
+      "userId": "695ffcb7c759e523a9f12fd5",
+      "specialization": "dermitologist"
+    }
+  ],
+  "appointments": [
+    {
+      "_id": "695a22e8fe93652c05baad94",
+      "userId": "695a22b1fe93652c05baad7f",
+      "doctorId": "695a226efe93652c05baad5f",
+      "patientName": "vaibhav",
+      "date": "2026-01-05"
+    },
+    {
+      "_id": "695a25f9fe93652c05baadb3",
+      "userId": "695a22b1fe93652c05baad7f",
+      "doctorId": "695a226efe93652c05baad5f",
+      "patientName": "anush",
+      "date": "2026-01-05"
+    },
+    {
+      "_id": "695a2cb751c0419d1b817cd0",
+      "userId": "695a22b1fe93652c05baad7f",
+      "doctorId": "695a226efe93652c05baad5f",
+      "patientName": "anush",
+      "date": "2026-01-05"
+    },
+    {
+      "_id": "695ffd31c759e523a9f13019",
+      "userId": "695ffd06c759e523a9f13008",
+      "doctorId": "695ffcb7c759e523a9f12fd7",
+      "patientName": "Jishnu",
+      "date": "2026-01-10"
+    }
+  ]
+}
